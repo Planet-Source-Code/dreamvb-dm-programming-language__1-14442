@@ -1,0 +1,129 @@
+DM++ Beta 2 Basic Functions List
+
+At ths time this verision only includes some basic function
+I hope to add more soon. but for now please see the list below
+On how to use the functions.
+
+
+##################################################################
+
+#BEGIN       	Each Program must include this at the top to work
+END.	     	This must be included at the end of your code.
+;		This must allways to included at the end of each line
+TextOut       	This will Print text to the screen within the brackets
+-----------------------------------------------------------------------------------------------
+
+Example
+.
+.
+	TextOut("This is a Test Message");
+
+-----------------------------------------------------------------------------------------------
+CurrentX	This set the current X Text Position
+
+Example
+.
+.
+	CurrenX=150;
+	TextOut("X Text Position");
+
+-----------------------------------------------------------------------------------------------
+
+CurrentY	This sets the Current Y Text Position
+
+Example
+.
+.
+	CurrentY=140;
+	TextOut("Y Position");
+-----------------------------------------------------------------------------------------------
+
+Mode		This will set the current text Fontsize Size
+
+Example
+.
+.
+	Mode(13);
+	TextOut("Hello-Word");
+	You will see the font size go larager.
+
+The Follwing Mode are also supported in this verision
+
+Mode 10 Changes the font size to 5
+Mode 12 Changes the font size to 16
+Mode 13 Changes the font size to 18
+Mode 16 Chnages the font size to 20
+
+-----------------------------------------------------------------------------------------------
+
+TextColour	This will Set the Text ForeColour
+
+Example
+.
+.
+	TextColour=clRed;
+	Will trun the text to Red
+
+here are some Other Colour Consts you can use.
+
+clRed		Sets forecolour to Red
+clGreen		Sets forecolour to Green
+clBlue		sets forecolour to Blue
+clBlack		sets forecolour to Black
+clWhite		sets forecolour to White
+clDesktop	sets forecolour to your desktop colour
+clYellow	sets forecolour to Yellow
+clCyan		sets forecolout to Cyan
+clMagenta	sets forecolour to Magenta
+
+-----------------------------------------------------------------------------------------------
+TextBkColour	This will se t the Back Colour
+Example
+.
+.
+
+	TextBkColour=clWhite
+	Will set the Back Colour to White
+-----------------------------------------------------------------------------------------------
+
+ShowMesaage	Displays a Mesasage Box with a Meesage that you want
+
+Example
+.
+.
+	ShowMessage("This is a Message Box");
+-----------------------------------------------------------------------------------------------
+Plot	Draw a Small Dot on the screen were you set it to
+
+Example
+.
+.
+	Plot(100,100);
+-----------------------------------------------------------------------------------------------
+Beep	Makes the Computer so
+
+Example
+.
+.
+	Beep;
+-----------------------------------------------------------------------------------------------
+Cls	Clears the Screen
+
+Example
+.
+.
+	Cls;
+-----------------------------------------------------------------------------------------------
+DrawLine	Draws Lines on the screen were you set it to
+
+Example
+.
+.
+	DrawLine(100,1500);
+-----------------------------------------------------------------------------------------------
+Well I thinks that is about all you need to know for this verision... 
+	Look out for the new one comming soon.
+	
+	Ben Jones
+	Email Dreamvb@yahoo.com
+	Website	dreamvb.s5.com
